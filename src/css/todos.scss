@@ -4,8 +4,21 @@
 		margin: 0 auto 5px;
 		width: 300px;
 	}
+
 	&__create-button{
 		display: block;
-		margin-bottom: 0 auto 20px;
+		margin: 0 auto 20px;
+	}
+
+	&__task{
+		&--completed{
+			text-decoration: line-through;
+		}
+
 	}	
+}
+
+th, td {
+	font-size: 20px;
+	text-align: center;
 }
