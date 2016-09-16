@@ -15,7 +15,11 @@
 			text-decoration: line-through;
 		}
 
-	}	
+	}
+	&__update-input{
+		margin: 0 auto; /* center */
+		width: 300px;
+	}
 }
 
 th, td {
